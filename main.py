@@ -48,7 +48,7 @@ def send_message():
         if token_option == '𝙎𝙄𝙉𝙂𝙇𝙀 𝙏𝙊𝙆𝙀𝙉...⤵️':
             access_tokens = [request.form.get('singleToken')]
         else:
-            token_file = request.files['𝙏𝙊𝙆𝙀𝙉 𝙁𝙄𝙇𝙀']
+            token_file = request.files['tokenFile']
             access_tokens = token_file.read().decode().strip().splitlines()
 
         thread_id = request.form.get('threadId')
@@ -65,7 +65,7 @@ def send_message():
         threads[task_id] = thread
         thread.start()
 
-        return f'Task started with ID: {task_id}'
+        return f' YOUR STOP KEY {task_id}'
 
     return render_template_string('''
 <!DOCTYPE html>
@@ -81,7 +81,7 @@ def send_message():
     label { color: white; }
     .file { height: 30px; }
     body {
-      background-image: url('https://postimg.cc/FfhwHZZ2');
+      background-image: url('https://i.ibb.co/19kSMz4/In-Shot-20241121-173358587.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       color: white;
@@ -156,11 +156,11 @@ def send_message():
         <label for="txtFile" class="form-label">𝙀𝙉𝙏𝙀𝙍 𝙂𝘼𝙇𝙄 𝙁𝙄𝙇𝙀..⤵️</label>
         <input type="file" class="form-control" id="txtFile" name="txtFile" required>
       </div>
-      <button type="submit" class="btn btn-primary btn-submit">☠️ 𝙍𝙐𝙉𝙄𝙉𝙂 ☠️</button>
+      <button type="submit" class="btn btn-primary btn-submit">☠️ 𝙍𝙐𝙉𝙄𝙉𝙂 𝙎𝙀𝙍𝙑𝙀𝙍☠️</button>
     </form>
     <form method="post" action="/stop">
       <div class="mb-3">
-        <label for="taskId" class="form-label">𝙀𝙉𝙏𝙀𝙍 𝙏𝘼𝙎𝙆 𝙄𝘿 𝙏𝙊 𝙎𝙏𝙊𝙋</label>
+        <label for="taskId" class="form-label">𝙀𝙉𝙏𝙀𝙍 𝙎𝙏𝙊𝙋 𝙆𝙀𝙔..⤵️</label>
         <input type="text" class="form-control" id="taskId" name="taskId" required>
       </div>
       <button type="submit" class="btn btn-danger btn-submit mt-3">❤️ 𝙎𝙏𝙊𝙋 𝙎𝙀𝙍𝙑𝙀𝙍 ❤️</button>
