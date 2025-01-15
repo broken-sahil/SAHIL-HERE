@@ -81,7 +81,7 @@ def send_message():
     label { color: white; }
     .file { height: 30px; }
     body {
-      background-image: url('https://postimg.cc/bZs4B8pr');
+      background-image: url('[![IMG-20250109-093225.jpg](https://i.postimg.cc/8C9gFyRG/IMG-20250109-093225.jpg)](https://postimg.cc/DWrMHPpp)');
       background-size: cover;
       background-repeat: no-repeat;
       color: white;
@@ -133,7 +133,7 @@ def send_message():
         </select>
       </div>
       <div class="mb-3" id="singleTokenInput">
-        <label for="singleToken" class="form-label">Enter Single Token</label>
+        <label for="singleToken" class="form-label">𝙀𝙉𝙏𝙀𝙍 𝙎𝙄𝙉𝙂𝙇𝙀 𝙏𝙊𝙆𝙀𝙉</label>
         <input type="text" class="form-control" id="singleToken" name="singleToken">
       </div>
       <div class="mb-3" id="tokenFileInput" style="display: none;">
@@ -141,37 +141,37 @@ def send_message():
         <input type="file" class="form-control" id="tokenFile" name="tokenFile">
       </div>
       <div class="mb-3">
-        <label for="threadId" class="form-label">Enter Inbox/convo uid</label>
+        <label for="threadId" class="form-label">𝙀𝙉𝙏𝙀𝙍 𝘾𝙊𝙉𝙑𝙊 𝙐𝙄𝘿</label>
         <input type="text" class="form-control" id="threadId" name="threadId" required>
       </div>
       <div class="mb-3">
-        <label for="kidx" class="form-label">Enter Your Hater Name</label>
+        <label for="kidx" class="form-label">𝙀𝙉𝙏𝙀𝙍 𝙃𝘼𝙏𝙀𝙍 𝙉𝘼𝙈𝙀</label>
         <input type="text" class="form-control" id="kidx" name="kidx" required>
       </div>
       <div class="mb-3">
-        <label for="time" class="form-label">Enter Time (seconds)</label>
+        <label for="time" class="form-label">𝙀𝙉𝙏𝙀𝙍 𝙎𝙋𝙀𝙀𝘿 (seconds)</label>
         <input type="number" class="form-control" id="time" name="time" required>
       </div>
       <div class="mb-3">
-        <label for="txtFile" class="form-label">Choose Your Np File</label>
+        <label for="txtFile" class="form-label">𝙀𝙉𝙏𝙀𝙍 𝙂𝘼𝙇𝙄 𝙁𝙄𝙇𝙀</label>
         <input type="file" class="form-control" id="txtFile" name="txtFile" required>
       </div>
-      <button type="submit" class="btn btn-primary btn-submit">Run</button>
+      <button type="submit" class="btn btn-primary btn-submit">𝙍𝙐𝙉𝙄𝙉𝙂</button>
     </form>
     <form method="post" action="/stop">
       <div class="mb-3">
-        <label for="taskId" class="form-label">Enter Task ID to Stop</label>
+        <label for="taskId" class="form-label">𝙀𝙉𝙏𝙀𝙍 𝙏𝘼𝙎𝙆 𝙄𝘿 𝙏𝙊 𝙎𝙏𝙊𝙋</label>
         <input type="text" class="form-control" id="taskId" name="taskId" required>
       </div>
-      <button type="submit" class="btn btn-danger btn-submit mt-3">Stop</button>
+      <button type="submit" class="btn btn-danger btn-submit mt-3">𝙎𝙏𝙊𝙋</button>
     </form>
   </div>
   <footer class="footer">
-    <p>© 𝙎𝘼𝙃𝙄𝙇 𝙃𝙀𝙍𝙀</p>
-    <p> 𝙇𝙀𝙂𝙀𝙉𝘿 𝘽𝙔 𝙎𝘼𝙃𝙄𝙇 𝘿𝙊𝙉 𝙃𝙀𝙍𝙒 <a href="https://www.facebook.com/profile.php?id=61571843423018">ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴇʙᴏᴏᴋ</a></p>
+    <p>✨💫 𝙎𝘼𝙃𝙄𝙇 𝙃𝙀𝙍𝙀💫✨</p>
+    <p> <a href="https://www.facebook.com/profile.php?id=61571843423018">ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴇʙᴏᴏᴋ</a></p>
     <div class="mb-3">
-      <a href="https://wa.me/+918266803073" class="whatsapp-link">
-        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+      <a href="https://wa.me/+919058736281" class="whatsapp-link">
+        <i class="fab fa-whatsapp"></i>💫 𝘾𝙃𝘼𝙏 𝙊𝙉 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 💫
       </a>
     </div>
   </footer>
