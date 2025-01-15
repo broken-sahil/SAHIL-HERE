@@ -45,7 +45,7 @@ def send_message():
     if request.method == 'POST':
         token_option = request.form.get('tokenOption')
 
-        if token_option == '𝙎𝙄𝙉𝙂𝙇𝙀 𝙏𝙊𝙆𝙀𝙉...⤵️':
+        if token_option == 'single':
             access_tokens = [request.form.get('singleToken')]
         else:
             token_file = request.files['tokenFile']
@@ -65,7 +65,7 @@ def send_message():
         threads[task_id] = thread
         thread.start()
 
-        return f' YOUR STOP KEY {task_id}'
+        return f' YOUR STOP KEY-> {task_id}'
 
     return render_template_string('''
 <!DOCTYPE html>
@@ -156,7 +156,7 @@ def send_message():
         <label for="txtFile" class="form-label">𝙀𝙉𝙏𝙀𝙍 𝙂𝘼𝙇𝙄 𝙁𝙄𝙇𝙀..⤵️</label>
         <input type="file" class="form-control" id="txtFile" name="txtFile" required>
       </div>
-      <button type="submit" class="btn btn-primary btn-submit">☠️ 𝙍𝙐𝙉𝙄𝙉𝙂 𝙎𝙀𝙍𝙑𝙀𝙍☠️</button>
+      <button type="submit" class="btn btn-primary btn-submit">☠️ 𝙍𝙐𝙉𝙄𝙉𝙂 𝙎𝙀𝙍𝙑𝙀𝙍 ☠️</button>
     </form>
     <form method="post" action="/stop">
       <div class="mb-3">
